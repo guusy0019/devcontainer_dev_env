@@ -30,5 +30,15 @@
             "jinja": true,
             "cwd": "${workspaceFolder}/backend"
         }
+    ],
+    "compounds": [
+        {
+            "name": "Frontend + Backend",
+            "configurations": [
+                "nextjs",
+                "Python Debugger: FastAPI"
+            ],
+            "stopAll": true
+        }
     ]
 }
